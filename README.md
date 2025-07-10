@@ -8,16 +8,10 @@ Package: com.zenwallet.app
 Minimum SDK: API 21 (Lollipop)
 3. Tambahkan Dependency
 Buka app/build.gradle, tambahkan:
+ZenWalletApp/
+├── app/
+│   └── build.gradle ← klik file ini
 
-dependencies {
-    implementation "androidx.compose.ui:ui:1.5.0"
-    implementation "androidx.compose.material:material:1.5.0"
-    implementation "androidx.compose.ui:ui-tooling-preview:1.5.0"
-    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.6.1"
-    implementation "androidx.activity:activity-compose:1.7.0"
-    implementation "org.web3j:core:4.9.4"
-}
-}
 
 
 
