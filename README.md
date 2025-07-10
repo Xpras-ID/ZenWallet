@@ -8,6 +8,7 @@ Package: com.zenwallet.app
 Minimum SDK: API 21 (Lollipop)
 3. Tambahkan Dependency
 Buka app/build.gradle, tambahkan:
+
 dependencies {
     implementation "androidx.compose.ui:ui:1.5.0"
     implementation "androidx.compose.material:material:1.5.0"
@@ -20,7 +21,7 @@ dependencies {
 Klik "Sync Now" jika muncul notifikasi
 4. Ganti Isi File
 Ubah file berikut dengan kode yang sudah saya beri:
--------------------------------------------------------------------
+
 File	Ganti dengan
 MainActivity.kt	Kode dari MainActivity dengan import/import screen
 Tambah	ImportWalletScreen.kt
@@ -28,7 +29,7 @@ Tambah	SendTokenScreen.kt
 Tambah	TransactionHistory.kt + TransactionListScreen.kt
 Tambah	WalletUtils.kt
 Tambah	Theme.kt (tema hijau)
--------------------------------------------------------------------
+
 5. Jalankan Emulator / Device
 Klik tombol ▶️ Run 'app'
 Pilih emulator Android atau device asli
@@ -98,7 +99,7 @@ dependencies {
     debugImplementation "androidx.compose.ui:ui-tooling:1.5.0"
 }
 
-ANGKAH 2: Sinkronkan Gradle
+LANGKAH 2: Sinkronkan Gradle
 Setelah selesai mengedit:
 
 Klik tombol "Sync Now" di pojok kanan atas Android Studio
