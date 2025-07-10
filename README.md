@@ -1,8 +1,3 @@
-LANGKAH 1: Buka app/build.gradle di Android Studio
-Setelah buka project di Android Studio
-Di panel kiri, pilih tab Project → mode "Project" atau "Android"
-Gantilah bagian dependencies dan plugins seperti ini:
-
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
