@@ -16,10 +16,11 @@ dependencies {
     implementation "androidx.activity:activity-compose:1.7.0"
     implementation "org.web3j:core:4.9.4"
 }
+
 Klik "Sync Now" jika muncul notifikasi
 4. Ganti Isi File
 Ubah file berikut dengan kode yang sudah saya beri:
-
+-------------------------------------------------------------------
 File	Ganti dengan
 MainActivity.kt	Kode dari MainActivity dengan import/import screen
 Tambah	ImportWalletScreen.kt
@@ -27,12 +28,12 @@ Tambah	SendTokenScreen.kt
 Tambah	TransactionHistory.kt + TransactionListScreen.kt
 Tambah	WalletUtils.kt
 Tambah	Theme.kt (tema hijau)
-
+-------------------------------------------------------------------
 5. Jalankan Emulator / Device
 Klik tombol ▶️ Run 'app'
 Pilih emulator Android atau device asli
 Aplikasi ZenWallet akan terbuka
-✅ LANGKAH 1: Buka app/build.gradle di Android Studio
+LANGKAH 1: Buka app/build.gradle di Android Studio
 Setelah buka project di Android Studio
 Di panel kiri, pilih tab Project → mode "Project" atau "Android"
 Navigasikan ke:
