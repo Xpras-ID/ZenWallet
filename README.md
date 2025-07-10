@@ -1,48 +1,34 @@
-# 🦎 ZenWallet
+# 🦎 ZenWallet — Android Crypto Wallet for ZenChain
 
-**ZenWallet** is a lightweight and secure Android wallet for interacting with the [ZenChain](https://zenchain.network) blockchain. Built using **Jetpack Compose** and **Web3j**, it supports native ZTC token management, wallet import, and transaction history.
-
-![ZenWallet Banner](https://your-image-url-if-any.com/banner.png)
-
----
-
-## 🔗 About ZenChain
-> ZenChain is a next-generation blockchain focused on modular DApps, privacy-first smart contracts, and scalable token ecosystems. ZTC is its native token.
+**ZenWallet** is a simple and secure crypto wallet built for the [ZenChain](https://zenchain.io) blockchain.  
+Supports importing private keys, sending ZTC tokens, and viewing transaction history — all in a clean green-themed Android UI powered by Jetpack Compose.
 
 ---
 
-## ✨ Features
+## 🧩 Features
 
-- ✅ Import wallet with **Private Key**
-- ✅ View **$ZTC Token Balance**
-- ✅ Send ZTC to other addresses
-- ✅ View **transaction history**
-- ✅ Built using **Jetpack Compose UI**
-- 🎨 Zen green theme for clarity and trust
-
----
-
-## 📱 Screenshots
-
-| Import Wallet | Transaction History |
-|---------------|---------------------|
-| ![Import](<img width="331" height="752" alt="Image" src="https://github.com/user-attachments/assets/e0c89b50-b9b1-4c21-846c-0b3d0ed3219a" />) | ![History](screenshots/history.png) |
+- 🔐 Import wallet using **Private Key**
+- 💸 Send **ZTC tokens**
+- 📜 View transaction history
+- 🌿 Green-themed UI using **Jetpack Compose**
+- ⚙️ Powered by **Web3j** and ZenChain RPC
 
 ---
 
-## 🚀 Getting Started
+## 📲 How to Run in Android Studio
 
-### 📦 Requirements
+> 💡 This project is fully functional — just open and run!
 
-- Android Studio Giraffe or newer
+### ✅ Prerequisites
+- [Android Studio](https://developer.android.com/studio) (Giraffe or newer)
 - JDK 17+
-- Minimum SDK: 21 (Lollipop)
+- Internet connection (to connect to ZenChain RPC)
 
 ---
 
-### 🛠 Installation
+### 📦 Step-by-Step Setup
 
-```bash
-git clone https://github.com/your-username/ZenWallet.git
-cd ZenWallet
-
+1. **Download or Clone**
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/ZenWallet.git
+   cd ZenWallet
