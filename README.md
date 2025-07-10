@@ -26,7 +26,7 @@
 
 | Import Wallet | Transaction History |
 |---------------|---------------------|
-| ![Import](screenshots/import.png) | ![History](screenshots/history.png) |
+| ![Import](<img width="331" height="752" alt="Image" src="https://github.com/user-attachments/assets/e0c89b50-b9b1-4c21-846c-0b3d0ed3219a" />) | ![History](screenshots/history.png) |
 
 ---
 
