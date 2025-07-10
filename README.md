@@ -17,12 +17,7 @@ dependencies {
     implementation "androidx.activity:activity-compose:1.7.0"
     implementation "org.web3j:core:4.9.4"
 }
+}
 
 
 
-Klik tombol "Sync Now" di pojok kanan atas Android Studio
-
-Tunggu hingga selesai (jika ada error, pastikan versi Compose cocok)
-
-✅ Selesai!
-Setelah gradle berhasil disinkronkan, kamu bisa Run ▶️ aplikasi ZenWallet-nya langsung.
